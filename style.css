@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:link, a:active, a:visited {
+    text-decoration: none;
+}
+header{
+    background-color: #21243d;
+    height: 82px;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.dongdau ._3cot{
+    display: flex;
+}
+.dongdau ._3cot .cottrai{
+    margin-top: 15px;
+}
+
+.dongdau ._3cot .cotgiua ul{
+    display: flex;
+}
+.dongdau ._3cot .cotgiua {
+    margin:  auto 145px;
+}
+.dongdau .cotgiua li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    margin: 35px 40px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+.dongdau .cotgiua li a {
+    color: white;
+}
+.dongdau .cotgiua li a.active{
+    color: rgb(0, 247, 255);
+}
+.dongdau .cotgiua li a:hover{
+    color: tomato;
+    border-bottom: 2px solid tomato;
+}
+.dongdau .cotphai 
+{
+    margin-top: 35px;
+    margin-left: 100px;
+}
+.infor{
+    background-color: #678d7c;
+    background-image: url(img/anhnen1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center ;
+}
+.infor .container{
+    padding-top: 280px;
+    height: 1000px;
+}
+.infor .textbig h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 124px;
+}
+.infor .textsmall h6 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 550px;
+    font-size: 30px;
+    font-weight: 350;
+    margin-top: 60px;
+}
+.infor .nutnhan 
+{
+    margin-top: 100px;
+}
+.infor .nutnhan button{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 650;
+    font-size: 25px;
+    background-color:#21243d;
+     padding: 12px 75px;
+    border-radius: 50px;
+}
+.popular{
+    background-color:#21243d;
+    background-image: url(img/anhnenbosung.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.popular .container{
+    height: 1000px;
+}
+.popular .container .bigtext h1{
+    color: white;
+    padding-top: 94px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 85px;
+}
+.popular .container .bigtext pre{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 60px;
+}
+.popular .container ._3mon {
+    width: 100%;
+    display: flex;
+}
+.popular .container ._3mon .mon1{
+    width: 33.33%;
+    margin-top: 100px;
+    color: white;
+}
+.popular .container ._3mon .mon1 img{
+    border-radius: 200px;
+    margin-left: 150px;
+}
+.popular .container ._3mon .mon1 h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+    
+}
+.popular .container ._3mon .mon1 h6{
+    font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-left: 100px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.infororder {
+    background-image: url(img/hinhnen3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    
+}
+.infororder .container{
+    height: 1000px;
+    display: flex;
+}
+.infororder .container .cottrai {
+    padding-top: 270px;
+}
+.infororder .container .cottrai img{
+    border-radius: 400px;
+    margin: auto;
+}
+.infororder .container .cotphai {
+    margin:  0 200px;
+    padding-top: 350px;
+}
+.infororder .container .cotphai h1 {
+    color:#21243d ;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+.infororder .container .cotphai h6{
+    color:#21243d ;
+    font-size: 30px;
+    width: 720px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.infororder .container .cotphai button{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 650;
+    font-size: 25px;
+    background-color:#21243d;
+     padding: 15px 90px;
+    border-radius: 50px;
+    margin-top: 80px;
+}
+.statistics{
+    background-image: url(img/hinh12.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.statistics .container{
+    height: 1000px;
+}
+.statistics .container h1 {
+    color: white;
+    padding-top: 94px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 85px;
+}
+.statistics .container pre{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 60px;
+}
+.statistics .container .danhsach{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+.statistics .container .danhsach .cot1{
+   margin: auto;
+}
+.infor2{
+    background-image: url(img/hinhnen5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top top;
+}
+.infor2 .container{
+    height: 1000px;
+    display: flex;
+}
+.infor2 .container .cotphai {
+    padding-top: 270px;
+    
+}
+.infor2 .container .cotphai img{
+    border-radius: 400px;
+}
+.infor2 .container .cottrai {
+    padding-top: 350px;
+    margin-left: 50px;
+}
+.infor2 .container .cottrai h1 {
+    color:#21243d ;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+.infor2 .container .cottrai h6{
+    color:#21243d ;
+    font-size: 30px;
+    width: 720px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.infor2 .container .cottrai button{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 650;
+    font-size: 25px;
+    background-color:#21243d;
+     padding: 15px 90px;
+    border-radius: 50px;
+    margin-top: 80px;
+}
+.infor3
+{
+    background-image: url(img/anhnen10.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.infor3 .container{
+    height: 1000px;
+}
+.infor3 .container img{
+    border-radius: 50%;
+    margin-top: 250px;
+    margin-left: 550px;
+}
+.infor3 .container h1{
+    color: white;
+    text-align: center;
+    margin: 50px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.infor3 .container h2{
+    color: white;
+    text-align: center;
+    margin: 50px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+.email{
+    background-image: url(img/hinhnen7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.email .container{
+    height: 1000px;
+}
+.email .container h1
+{
+   padding-top: 200px;
+   text-align: center;
+   color:#21243d ;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 80px;
+}
+.email .container pre
+{
+   padding-top: 50px;
+   text-align: center;
+   color:#21243d ;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 30px;
+   font-weight: 100;
+}
+.email .container .timkiem{
+   margin-top: 100px;
+   margin-left: 250px;
+   position: relative;
+}
+.email .container .timkiem input[type=text]{
+    font-size: 50px;
+    border-radius: 50px;
+    padding: 10px 40px ;
+    font-family: 'Montserrat', sans-serif;
+}
+.email .container .submit button{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    background-color:#21243d;
+     padding: 22px 70px;
+    border-radius: 50px;
+    position: absolute;
+    top: -1px;
+    left: 600px;
+}
+.infor4{
+    background-image: url(img/hinhnen8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.infor4 .container{
+    height: 1000px;
+}
+.infor4 .container ._4cot{
+    display: flex;
+}
+.infor4 .container ._4cot .cotdau h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    padding-top: 350px;
+}
+.infor4 .container ._4cot .cotdau p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    padding-top: 50px;
+    width: 500px;
+}
+.infor4 .container ._4cot .cotdau .icon{
+    display: flex;
+    padding-top: 40px;
+}
+.infor4 .container ._4cot .cotdau .icon .fb{
+    margin-left: 10px;
+}
+.infor4 .container ._4cot .cotdau .icon .tw{
+    margin-left: 10px;
+}
+.infor4 .container ._4cot .cotdau .icon .app{
+    margin-left: 10px;
+}
+.infor4 .container ._4cot .cot1{
+    color: white;
+    margin-left: 100px;
+    margin-top: 350px;
+}
+.infor4 .container ._4cot .cot1 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+.infor4 .container ._4cot .cot1 .gioithieu{
+   padding-top: 40px;
+}
+.infor4 .container ._4cot .cot1 .gioithieu a h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    width: 250px;
+}
+@media screen and (max-width:1629px) {
+    .infor4 .container ._4cot .cot1{
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width:1487px) {
+    .infor4 .container ._4cot .cot1{
+        margin-left: 50px;
+    }
+    .infororder .container .cotphai {
+        margin:  0 100px;
+        padding-top: 350px;
+    }
+}
+@media screen and (max-width:1359px){
+    .popular .container ._3mon .mon1 img{
+        border-radius: 200px;
+        margin-left: 100px;
+    }
+    .popular .container ._3mon .mon1 h1{
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 150px;
+        
+    }
+    .popular .container ._3mon .mon1 h6{
+        font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      margin-left: 5px;
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .infor2 .container .cottrai {
+        padding-top: 350px;
+        margin-left: 10px;
+    }
+    .dongdau .cotphai 
+    {
+    margin-top: 35px;
+    margin-left: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
